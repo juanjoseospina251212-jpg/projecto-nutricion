@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reproductor</title>
+
+<style>
+body {
+  margin: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 900px;
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="video-container">
+  <video autoplay muted playsinline controls>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+</div>
+
+</body>
+</html>
